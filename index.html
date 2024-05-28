@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Girl</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper1">
+        <div class="heading">
+            <div class="navbar" id="navbar">
+
+                <div class="logo" id="logo">
+                    <a href="#wrapper1"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav-right" id="nav-right">
+                    <a href="#wrapper1">Home</a>
+                    <a href="#wrapper2">Product</a>
+                    <a href="#wrapper3">Contact Us</a>
+                    <a href="#wrapper4">About Us</a>
+                </div>
+                <div class="menubtn" id="menubtn">
+                    <img src="./img/menu.svg" alt="menu btn">
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom menuclose">
+            <div class="hero1 menuclose" id="hero1">
+                <div class="hero-sec-left">
+                    <img src="./img/main-page-cake.png" alt="cake">
+                </div>
+                <div class="hero-sec-right">
+                    <h1 class="first-header">Welcome</h1>
+                    <h1 class="second-header">to</h1>
+                    <h1 class="third-header">CAKE GIRL<span>&copy;</span></h1>
+                    <br>
+                    <p class="first-para">Home Made Delicies Cakes</p>
+                    <p class="second-para">Magical Tasty Art</p>
+                </div>
+            </div>
+            <div class="footer">
+                <p>
+                    Indulge in a symphony of flavors with our delicatable cake creations ! <br>
+                    From Classic Vanilla to Decadent Chocolate, Each slice is crafted with care to tantalize yourtaste
+                    buds. <br>
+                    Explore our section of moist, airy cakes,<br>
+                    Perfect for any celebration or sweet craving. Wether its a birthday bash or a simple afternoon
+                    treat,<br> Our cakes are sure to delight every plate. Order now let the sweetness begin! </p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="wrapper2">
+        <div class="title">
+            <h1>
+                Products
+            </h1>
+        </div>
+
+            <div class="hero">
+                
+    
+                <div class="carousel">
+    
+                    <ul>
+                        <li><img src="./img/cakes/cake_1.jpeg" alt="" width="40%" ></li>
+                        <li><img src="./img/cakes/cake_2.jpeg" alt="" width="40%" ></li>
+                        <li><img src="./img/cakes/cake_3.jpeg" alt="" width="40% "></li>
+                        <li><img src="./img/cakes/cake_4.jpeg" alt="" width="40%" ></li>
+                        
+                    </ul>
+    
+    
+    
+                </div>
+        </div>
+    </div>
+    <div class="wrapper" id="wrapper3">
+        <div class="title">
+            <h1>
+                Contact Us
+            </h1>
+        </div>
+        <div class="back_box">
+            <div class="border_box">
+                <div class="con_heading">
+                    <h2>Get in Touch with us</h2>
+                </div>
+                <br>
+                <p class="con_subheading">PHONE</p>
+                <p>076-1234567</p>
+                <br>
+                <p class="con_subheading">EMAIL</p>
+                <p>example@gmail.com</p>
+                <br>
+                <p class="con_subheading">ADDRESS</p>
+                <p>Dehippawa, Dambulu Halmillawewa, <br> Dambulla</p>
+                <br>
+                <p class="con_subheading">SOCIAL</p>
+                <p class="social_icon"><span><img src="./img/facebook.svg" alt=""></span><span><img
+                            src="./img/instagram.svg" alt=""></span><span><img src="./img/whatsapp.svg"
+                            alt=""></span><span><img src="./img/tiktok.svg" alt=""></span><span><img src="./img/twitter.svg" alt=""></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="wrapper4">
+        <div class="title">
+            <h1>
+                About Us
+            </h1>
+        </div>
+        <div class="about_box">
+            <div class="left_textbox">
+                <div class="about-borderbox">
+                    <div class="sign">
+                        <h1>CakeArtist - Bashila Ekanayake</h1>
+                        <h4>Bashila Ekanayake is a talented Cake Artist known for creating beautiful custom cakes that bring joy to any occasion.</h4>
+                        <br>
+                        <div class="redbox">
+                            <p>We are Quite proud of our acivements</p>
+                        </div>
+                        <br>
+                        <p>At CakeArtist, we take immense pride in our achievements and the trust our clients place in us. Our journey has been marked by numerous awards and recognitions, reflecting our commitment to excellence in cake artistry. Each cake is crafted with passion, ensuring that every celebration becomes a memorable experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ownerback"></div>
+            <div class="right_imgbox">
+                <img src="./img/owner.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js "></script>
+
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+            style: 'carousel',
+            spacing:-0.2,
+        });
+    </script>
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
