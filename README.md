@@ -2,7 +2,7 @@
  Cake Girl is a simple yet elegant personal portfolio website designed to showcase your cake-making talents. Built with JavaScript, HTML, CSS, and jQuery, this fully responsive site looks great on all devices. Highlight your unique cake designs, share your baking journey, and attract new clients with this user-friendly platform.
 
 
-
+<br><br><br><br>
 
 
  
